@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Code vd Me</title>
+</head>
+
+<body>
+  <!-- BOTTOM TO TOP BUTTON  -->
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="bi bi-arrow-up text-white"></i>
+  </button>
+  <!-- ENDS  -->
+  <!-- NAVBAR HERE  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+       <i class="bi bi-power text-white"></i> Code vd Me</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#learn">What you'll learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#question">Questions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#instructor">Instructor</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END  -->
+
+  <!-- HEADER-SECTION  -->
+  <header class="bg-dark text-light p-5 p-md-0 pt-md-5 ">
+    <div class="container ">
+      <div class="row align-itmes-center justify-content-between">
+        <div class="col-md-8 col-sm-12 ">
+          <h1 class="fw-bolder">Become a <span class="text-warning">Web Developer</span> </h1>
+          <p class="lead my-4"> We focus on teaching our student the fundamental of the latest
+            and greatest technnologies to prepare them for their first
+            dev role.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Start the enroll</button>
+        </div>
+        <div class="col-md-4 col-sm-12 d-none d-sm-block">
+          <img src="img/m1.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!-- HEADER-END  -->
+
+  <!-- NEWS LETTER START  -->
+  <section class="bg-primary text-light p-md-5 p-2 ">
+    <!-- p-sm-2 didn't work -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h3>
+            Sign Up For Our NewsLetter
+          </h3>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="input-group mb-3 ">
+            <input type="text" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-dark bttn" type="button" id="button-addon2">Subscribe</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- NEWS LETTER ENDS  -->
+
+  <!-- CARDS START  -->
+  <section class="p-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Card 1  -->
+        <div class="col-md-4">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h2 mb-3">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h1 class="mb-3">
+                Virtual
+              </h1>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro vel voluptatum aspernatur,
+                repellendus vitae.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card bg-secondary text-light">
+            <div class="card-body text-center">
+              <div class="h2 mb-3">
+                <i class="bi bi-person-square"></i>
+              </div>
+              <h1 class="mb-3">
+                Hybrid
+              </h1>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro vel voluptatum aspernatur,
+                repellendus vitae.</p>
+              <a href="#" class="btn btn-dark">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4 col-sm-12">
+          <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h2 mb-3">
+                <i class="bi bi-people"></i>
+              </div>
+              <h1 class="mb-3">
+                In Person
+              </h1>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro vel voluptatum aspernatur,
+                repellendus vitae.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- CARDS END  -->
+
+  <!-- FUNDAMENTALS SECTION START -->
+  <section id="learn" class="p-5">
+    <div class="container">
+      <div class="row justify-content-center align-itmes-center">
+        <div class="col-md-7">
+          <img src="img/fundamentals.svg" alt="no" class="img-fluid">
+        </div>
+        <div class="col-md-5">
+          <h1 class="fw-bold">Learn fundamentals</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem perferendis voluptate, voluptates maxime
+            molestiae numquam non dolore sunt facilis distinctio tenetur esse sint voluptatem atque illum magni,
+            reprehenderit placeat expedita.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate veritatis suscipit expedita
+            perspiciatis possimus quis? Eligendi alias reiciendis laborum necessitatibus labore ad. Quisquam tempore
+            natus esse sunt iste necessitatibus?</p>
+          <a href="#" class="btn btn-light mt-3 fw-bold">
+            <i class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FUNDAMENTALS SECTION END -->
+
+  <!-- REACT SECTION START -->
+  <section id="learn" class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row justify-content-center align-itmes-center">
+        <div class="col-md-5">
+          <h1 class="fw-bold">Learn React</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem perferendis voluptate, voluptates maxime
+            molestiae numquam non dolore sunt facilis distinctio tenetur esse sint voluptatem atque illum magni,
+            reprehenderit placeat expedita.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam cupiditate veritatis suscipit expedita
+            perspiciatis possimus quis? Eligendi alias reiciendis laborum necessitatibus labore ad. Quisquam tempore
+            natus esse sunt iste necessitatibus?</p>
+          <a href="#" class="btn btn-light m-3 fw-bold">
+            <i class="bi bi-chevron-right"></i> Read More
+          </a>
+        </div>
+        <div class="col-md-7">
+          <img src="img/react.svg" alt="no" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- REACT SECTION END -->
+
+  <!-- QUESTION ACCORDION START  -->
+  <section class="p-5" id="question">
+    <div class="container">
+      <h2 class="text-center mb-4">
+        Frequently Asked Questions
+      </h2>
+      <div class="accordion" id="question">
+        <!-- ITEMS  -->
+        <!-- ITEM 01  -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Any Youtube Channel?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#question">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- ITEM 01 ENDS  -->
+
+        <!-- ITEM 02 STARTS  -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Where are you from?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#question">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- ITEM 02 ENDS  -->
+
+        <!-- ITEM 03  -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Do you have any institue or any things?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#question">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <!-- ITEM 03 ENDS  -->
+
+        <!-- ITEM 4 STARTS -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Do you help me to find a job?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#question">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <!-- ITEM 4 ENDS  -->
+
+        <!-- ITEM 5 STARTS -->
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+              How do i signup?
+            </button>
+          </h2>
+          <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+            data-bs-parent="#question">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+
+        <!-- ITEM 5 ENDS -->
+
+      </div>
+    </div>
+
+  </section>
+  <!-- QUESTION ACCORDION END  -->
+
+  <!-- SECTION OUR INSTRUCTOR START -->
+  <section id="instructor" class="p-5 bg-primary g-4">
+    <div class="container">
+      <h2 class="text-center text-white fw-bold">Our Instructor</h2>
+      <p class="lead text-center text-white mb-5">
+        Our instructor all have 5+ years working experience as a web Developer
+        in the industry.
+      </p>
+      <div class="row">
+
+        <!-- Instructor 1  -->
+        <div class="col-md-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="img/2S0A5112.JPG" class="rounded-circle mb-3" alt="" style="height:80px ;width: 80px;">
+              <h3 class="card-title mb-3">Uzair Ansari</h3>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatibus quis
+                tenetur laboriosam excepturi cum.</p>
+              <a href="https://twitter.com/UzairAnsari2114" target="_blank"> <i
+                  class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://www.facebook.com/uzairansari.2114/" target="_blank"> <i
+                  class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="https://www.instagram.com/uzairansari14/" target="_blank"> <i
+                  class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href="https://github.com/abubakaransari14" target="_blank"> <i
+                  class="bi bi-github text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instructor 2  -->
+        <div class="col-md-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="img/shaheer.jpg" class="rounded-circle mb-3" alt="" style="height:80px ;width: 80px;">
+              <h3 class="card-title mb-3">Shaheer Javed</h3>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatibus quis
+                tenetur laboriosam excepturi cum.</p>
+              <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://www.facebook.com/shaheer.javed225" target="_blank"> <i
+                  class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href="https://www.instagram.com/ig_shaheer.javed/" target="_blank"> <i
+                  class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href=""> <i class="bi bi-github text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instructor 3  -->
+        <div class="col-md-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="img/shezi.jpg" class="rounded-circle mb-3" alt="" style="height:80px ;width: 80px;">
+              <h3 class="card-title mb-3">Sheraz Ahmed</h3>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatibus quis
+                tenetur laboriosam excepturi cum.</p>
+              <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://www.facebook.com/Sh3zi.1" target="_blank"> <i
+                  class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href=""> <i class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href=""> <i class="bi bi-github text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instructor 4  -->
+        <div class="col-md-3">
+          <div class="card bg-light">
+            <div class="card-body text-center">
+              <img src="img/boku.jpg" class="rounded-circle mb-3" alt="" style="height:80px ;width: 80px;">
+              <h3 class="card-title mb-3">Hamza Ahmed</h3>
+              <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptatibus quis
+                tenetur laboriosam excepturi cum.</p>
+              <a href=""> <i class="bi bi-twitter text-dark mx-1"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100009562843379" target="_blank"> <i
+                  class="bi bi-facebook text-dark mx-1"></i></a>
+              <a href=""> <i class="bi bi-instagram text-dark mx-1"></i></a>
+              <a href=""> <i class="bi bi-github text-dark mx-1"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- SECTION OUR INSTRUCTOR END -->
+
+  <!-- SECTION CONTACT MAP STARTS  -->
+  <section class="p-5">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-center mb-4">
+            Contact Info
+          </h2>
+          <ul class="list-group list-group-flush lead">
+            <li class="list-group-item">
+              <span class="fw-bold">Main Location: </span> Maqsood Road St 3 Landhi, Karachi
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Enrollment Phone: </span> (021)-332-XXXXXXX-3
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Student Phone: </span> (+92)-313-2799422
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Enrollment Email: </span> uzairansme@hotmailcom
+            </li>
+            <li class="list-group-item">
+              <span class="fw-bold">Student Email: </span> uzairansme@hotmailcom
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="img/map.jpeg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION CONTACT MAP ENDS  -->
+
+
+  <!-- FOOTER STARTS  -->
+  <footer class="p-5 text-center bg-dark text-white">
+    <p class="lead">Copyright &copy; 2022 Muhammad Abubakar Ansari | All Rights Reserved </p>
+  </footer>
+  <!-- FOOTER ENDS  -->
+
+  <!-- MODALS START -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Enroll Here</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <!-- FORMS START  -->
+
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="FirstName4" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="FirstName4">
+            </div>
+            <div class="col-md-6">
+              <label for="LastName4" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="LastName4">
+            </div>
+
+
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="example@example.com">
+            </div>
+            <div class="col-12">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+
+            <div class="col-12">
+              <label for="flexRadioDefault" class="form-label me-3">Gender</label>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+              <label class="form-check-label me-3" for="flexRadioDefault1">
+                Male
+              </label>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Female
+              </label>
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+
+          </form>
+
+          <!-- FORMS END  -->
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODALS END -->
+
+  <!-- BOTTOM TO TOP BUTTON SCRIPT  -->
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    
+  <!-- BOTTOM TO TOP BUTTON SCRIPT ENDS  -->
+
+
+  <!-- Js-separate  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
